@@ -1,0 +1,30 @@
+package com.example.leetcode.p001to050.p001_TwoSum;
+
+public class Solution02 implements Solution
+{
+  public int[] twoSum(int[] nums, int target)
+  {
+    if (nums == null) return  null;
+    if (nums.length < 2) return null;
+    
+    int[] idxs = new int[2];
+    
+    int len = nums.length;
+    
+    outerloop:
+    for (int i=0; i<len-1; i++)
+    {
+      for (int j=i+1; j<len; j++)
+      {
+        if (nums[i] + nums[j] == target)
+        {
+          idxs[0] = i;
+          idxs[1] = j;
+          break outerloop;
+        }
+      }
+    }
+    
+    return idxs;
+  }
+}
