@@ -1,9 +1,9 @@
-package com.example.leetcode.p001to050._003_LongestSubstringWithoutRepeatingCharacters;
+package com.example.leetcode.p001to050.p003_LongestSubstr;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution003v1 implements Solution003
+public class Solution01 implements Solution
 {
   public int lengthOfLongestSubstring(String s) 
   {
