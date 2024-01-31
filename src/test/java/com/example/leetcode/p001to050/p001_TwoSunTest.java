@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.leetcode.p001to050.p001_TwoSum.Solution;
-import com.example.leetcode.p001to050.p001_TwoSum.Solution01;
-import com.example.leetcode.p001to050.p001_TwoSum.Solution02;
+import com.example.leetcode.p001to050.p001_TwoSum.Solution001;
+import com.example.leetcode.p001to050.p001_TwoSum.Solution001v1;
+import com.example.leetcode.p001to050.p001_TwoSum.Solution001v2;
 import com.example.leetcode.p001to050.p001_TwoSum.Solution03;
 import com.example.leetcode.p001to050.p001_TwoSum.Solution04;
 import com.example.leetcode.p001to050.p001_TwoSum.TestCase;
@@ -25,14 +25,13 @@ public class p001_TwoSunTest {
     @Test
     public void testSolution01()
     {
-        Solution sol = new Solution01();
+        Solution001 sol = new Solution001v1();
         
         for (TestCase    tc : testcaseAry)
         {
             int target = tc.getTarget();
             int[] nums = tc.getNums();
             int[] expected = tc.getExpected();
-
             int[] actual = sol.twoSum(nums, target);
             assertArrayEquals(expected, actual);
         }
@@ -41,14 +40,13 @@ public class p001_TwoSunTest {
     @Test
     public void testSolution02()
     {
-        Solution sol = new Solution02();
+        Solution001 sol = new Solution001v2();
         
         for (TestCase    tc : testcaseAry)
         {
             int target = tc.getTarget();
             int[] nums = tc.getNums();
             int[] expected = tc.getExpected();
-
             int[] actual = sol.twoSum(nums, target);
             assertArrayEquals(expected, actual);
         }
@@ -57,14 +55,13 @@ public class p001_TwoSunTest {
     @Test
     public void testSolution03()
     {
-        Solution sol = new Solution03();
+        Solution001 sol = new Solution03();
         
         for (TestCase    tc : testcaseAry)
         {
             int target = tc.getTarget();
             int[] nums = tc.getNums();
             int[] expected = tc.getExpected();
-
             int[] actual = sol.twoSum(nums, target);
             assertArrayEquals(expected, actual);
         }
@@ -73,14 +70,13 @@ public class p001_TwoSunTest {
     @Test
     public void testSolution04()
     {
-        Solution sol = new Solution04();
+        Solution001 sol = new Solution04();
         
         for (TestCase    tc : testcaseAry)
         {
             int target = tc.getTarget();
             int[] nums = tc.getNums();
             int[] expected = tc.getExpected();
-
             int[] actual = sol.twoSum(nums, target);
             assertArrayEquals(expected, actual);
         }

@@ -1,6 +1,6 @@
 package com.example.leetcode.p001to050.p001_TwoSum;
 
-public class Solution02 implements Solution
+public class Solution001v2 implements Solution001
 {
   public int[] twoSum(int[] nums, int target)
   {
