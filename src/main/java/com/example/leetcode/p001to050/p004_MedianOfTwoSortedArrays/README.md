@@ -1,4 +1,4 @@
-4. Median of Two com.example.leetcode.sorted Arrays
+## 4\. Median of Two com.example.leetcode.sorted Arrays
 
    There are two com.example.leetcode.sorted arrays nums1 and nums2 of size m and n respectively.
    

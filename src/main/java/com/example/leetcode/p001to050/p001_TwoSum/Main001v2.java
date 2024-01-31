@@ -2,7 +2,7 @@ package com.example.leetcode.p001to050.p001_TwoSum;
 
 import java.util.Arrays;
 
-public class Main02
+public class Main001v2
 {
     private static TestCase[] testcaseAry = {
         new TestCase(9, new int[]{2,7,11,15}, new int[] {0,1}),
@@ -13,7 +13,7 @@ public class Main02
 
 	public static void main(String[] args)
 	{
-		Solution sol = new Solution01();
+		Solution001 sol = new Solution001v1();
 		
 		for (TestCase tc : testcaseAry)
 		{

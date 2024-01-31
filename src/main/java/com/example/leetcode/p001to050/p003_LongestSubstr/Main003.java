@@ -2,7 +2,7 @@ package com.example.leetcode.p001to050.p003_LongestSubstr;
 
 import com.example.leetcode.utils.myStringUtils;
 
-public class Main
+public class Main003
 {
     private static TestCase[] testcaseAry = 
     {

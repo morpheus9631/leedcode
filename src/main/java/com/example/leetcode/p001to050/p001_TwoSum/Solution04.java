@@ -2,7 +2,7 @@ package com.example.leetcode.p001to050.p001_TwoSum;
 
 import java.util.HashMap;
 
-public class Solution04 implements Solution
+public class Solution04 implements Solution001
 {
   public int[] twoSum(int[] nums, int target)
   {

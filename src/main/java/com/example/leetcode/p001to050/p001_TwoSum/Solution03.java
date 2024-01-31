@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Solution03 implements Solution
+public class Solution03 implements Solution001
 {
         
     public int[] twoSum(int[] nums, int target)
